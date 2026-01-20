@@ -1,0 +1,47 @@
+# =====================
+# OS / Editor files
+# =====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.terraformn/
+.terraform.lock.hcl
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+*.iml
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================
+# Spark / Hadoop
+# =====================
+*.log
+spark-warehouse/
+metastore_db/
+d
